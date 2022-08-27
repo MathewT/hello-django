@@ -36,3 +36,6 @@ ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost', '[::1]']
 ## Links
 
 https://docs.docker.com/samples/django/
+
+https://docs.djangoproject.com/en/4.1/intro/tutorial01/
+
