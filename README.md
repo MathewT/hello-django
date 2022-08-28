@@ -6,6 +6,8 @@
 docker-compose run web django-admin startproject hello_django  .
 
 docker-compose  exec web /bin/bash
+
+psql "host=db port=5432 dbname=postgres user=postgres"
 ```
 
 ## Notes
