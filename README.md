@@ -34,6 +34,12 @@ Fix `ALLOWED_HOSTS` in `settings.py`
 ```python
 ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost', '[::1]']
 ```
+Create a Django app (resource)
+
+```bash
+docker-compose run web django-admin startapp first_app
+```
+
 
 ## Links
 
