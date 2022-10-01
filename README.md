@@ -80,4 +80,9 @@ DATABASES = {
 * Run default migrations:
     * `docker-compose  exec web /bin/bash`
     * `python manage.py migrate`
-* 
+* Test run the installation:  `docker-compose up web`
+* asdf
+
+
+
+
