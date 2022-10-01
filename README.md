@@ -47,3 +47,9 @@ https://docs.docker.com/samples/django/
 
 https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
+## Steps to Create a Django Postgres Project and App
+
+* Create dir `my_site_1` and change into dir
+* Copy `docker-compose.yml`, `Dockerfile` and `requirements.txt` into `my_site_1`
+
+
