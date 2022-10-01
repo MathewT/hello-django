@@ -53,6 +53,7 @@ https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 * Copy `docker-compose.yml`, `Dockerfile` and `requirements.txt` into `my_site_1`
 * Build the `web` Docker image:  `docker-compose build web`
 * Create the main project `docker-compose run web django-admin startproject my_site_project .`
+* Change owner from `root` to user: `sudo chown -R mthomas:mthomas data/ manage.py  my_site_project/`
 * 
 
 
