@@ -51,5 +51,7 @@ https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
 * Create dir `my_site_1` and change into dir
 * Copy `docker-compose.yml`, `Dockerfile` and `requirements.txt` into `my_site_1`
+* Build the `web` Docker image:  ```bash docker-compose build web```
+* 
 
 
