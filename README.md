@@ -54,6 +54,26 @@ https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 * Build the `web` Docker image:  `docker-compose build web`
 * Create the main project `docker-compose run web django-admin startproject my_site_project .`
 * Change owner from `root` to user: `sudo chown -R mthomas:mthomas data/ manage.py  my_site_project/`
-* 
+* Edit `settings.py`, fix `ALLOWED_HOSTS`
+
+```python
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost', '[::1]']
+```
+* Edit `settings.py`, fix `DATABASES`
 
 
+```python
+import os
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('POSTGRES_NAME'),
+        'USER': os.environ.get('POSTGRES_USER'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+        'HOST': 'db',
+        'PORT': '5432',
+    }
+}
+```
+* Save `settings.py`
