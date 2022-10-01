@@ -77,3 +77,7 @@ DATABASES = {
 }
 ```
 * Save `settings.py`
+* Run default migrations:
+    * `docker-compose  exec web /bin/bash`
+    * `python manage.py migrate`
+* 
