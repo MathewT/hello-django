@@ -107,7 +107,7 @@ urlpatterns = [
 
 ```
 
-* Edit `my_site_project/settings.py` add `app_1.apps.App1Config` to `INSTALLED_APPS` list
+* Edit `my_site_project/settings.py` add `app_1.apps.App1Config,` to `INSTALLED_APPS` list
 
 
 
