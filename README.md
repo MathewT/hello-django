@@ -107,7 +107,9 @@ urlpatterns = [
 
 ```
 
-* Edit `my_site_project/settings.py` add `app_1.apps.App1Config,` to `INSTALLED_APPS` list
+* Edit `my_site_project/settings.py`,  add `app_1.apps.App1Config,` to `INSTALLED_APPS` list
+* Edit `my_site_project/urls.py`, import `include` and add `path('app_1/', include('app_1.urls')),` to `urlpatterns` list
+* 
 
 
 
