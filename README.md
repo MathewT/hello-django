@@ -83,6 +83,16 @@ DATABASES = {
 * Test run the installation:  `docker-compose up web`
 * Create `app_1`: `docker-compose run web django-admin startapp app_1`
 * Change owner from `root` to user: `sudo chown -R mthomas:mthomas app_1/`
+* Under `app_/`, edit `views.py` and add the `index` function:
+
+```python
+
+def index(request):
+	return render(request, 'app_1/index.html')
+
+```
+
+* Under `app_1/` create `templates/app_1/index.html`
 * 
 
 
