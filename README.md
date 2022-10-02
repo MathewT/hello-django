@@ -81,7 +81,7 @@ DATABASES = {
     * `docker-compose  exec web /bin/bash`
     * `python manage.py migrate`
 * Test run the installation:  `docker-compose up web`
-* Create `app_`: `docker-compose run web django-admin startapp app_1`
+* Create `app_1`: `docker-compose run web django-admin startapp app_1`
 * Change owner from `root` to user: `sudo chown -R mthomas:mthomas app_1/`
 * 
 
