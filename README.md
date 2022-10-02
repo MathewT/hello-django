@@ -92,8 +92,22 @@ def index(request):
 
 ```
 
-* Under `app_1/` create `templates/app_1/index.html`
-* 
+* Under `app_1/` create `templates/app_1/index.html` and add some content to `index.html`
+* Edit `app_1/urls.py` and add:
+
+```python
+
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+	path('', views.index, name="index"),
+]
+
+```
+
+* Edit `my_site_project/settings.py` add `app_1.apps.App1Config` to `INSTALLED_APPS` list
 
 
 
