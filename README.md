@@ -49,6 +49,8 @@ https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
 https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
 
+https://tomcam.github.io/postgres/
+
 ## Steps to Create a Django Postgres Project and App
 
 * Create dir `my_site_1` and change into dir
