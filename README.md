@@ -113,8 +113,39 @@ urlpatterns = [
 
 ## psql and database commands
 
+Connect to the database
+
 ```bash
 psql -d postgres -h db -U postgres
 ```
 
+Quit psql
+
+```bash
+\q
+```
+
+List available tables
+
+```bash
+\dt
+```
+
+Describe a table
+
+```bash
+\d table_name
+```
+
+List previous commands
+
+```bash
+\s
+```
+
+Turn on query execution time
+
+```bash
+\timing
+```
 
