@@ -111,6 +111,10 @@ urlpatterns = [
 * Edit `my_site_project/urls.py`, import `include` and add `path('app_1/', include('app_1.urls')),` to `urlpatterns` list
 * 
 
+## psql and database commands
 
+```bash
+psql -d postgres -h db -U postgres
+```
 
 
